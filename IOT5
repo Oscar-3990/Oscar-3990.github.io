@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios a la oficina de reparto</title>
+    <style>
+        .marco {
+            color: red;
+            width: 1250px; /* Incremento el ancho del contenedor 2.5 veces */
+            border: 1px solid black;
+            padding: 10px;
+            margin: 0 auto;
+        }
+        iframe {
+            width: 1250px; /* Ajusto el iframe para que sea más ancho */
+            height: 500px; /* Puedes ajustar la altura según lo necesites */
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://www.example.com/elegant-image.jpg" alt="Imagen elegante" style="width:100%; height:auto;">
+    <div class="marco">
+        <h1>Órdenes recibidas para el despacho</h1>
+    </div>
+    <div class="container mt-4">
+        <!-- Google Sheet embebida -->
+        <iframe src="https://docs.google.com/spreadsheets/d/1WHFy20Mo3XJ_uplmm5NZ766uTbCTfQHAaPPwLT7vgjA/pubhtml?widget=true&amp;headers=false"></iframe>
+    </div>
+
+    <!-- Enlace a Bootstrap JS y dependencias -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
